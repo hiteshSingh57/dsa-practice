@@ -9,7 +9,7 @@ public class MaxNumber {
         return max;
     }
     public static void main(String[] args) {
-        int nums[] = {2,7,6,3,5,8};
+        int nums[] = {2,7,6,3,9,8};
         System.out.println(findMax(nums));
     }
 }
