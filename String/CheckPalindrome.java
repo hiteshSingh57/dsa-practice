@@ -7,13 +7,15 @@ public class CheckPalindrome {
                 return false;
             }
             left++;
-            right++;
+            right--;
         }
         return true;
     }
     public static void main(String[] args) {
         String str1 = "madam";
+        String str2 = "hello";
         System.out.println(isPalindrome(str1));
+        System.out.println(isPalindrome(str2));
     }
     
 }
